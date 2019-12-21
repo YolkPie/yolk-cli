@@ -1,0 +1,7 @@
+.npmignore
+.babelrc
+.huskyrc
+.eslintrc.js
+test
+node_modules
+docs

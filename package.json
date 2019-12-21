@@ -1,0 +1,43 @@
+{
+  "name": "@yolkpie/yolk-cli",
+  "version": "1.0.0",
+  "description": "前端项目脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "yolk": "./bin/yolk.js"
+  },
+  "repository": "https://github.com/YolkPie/yolk-cli.git",
+  "keywords": [
+    "cli",
+    "脚手架",
+    "项目搭建"
+  ],
+  "author": "yujihu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YolkPie/yolk-cli/issues"
+  },
+  "homepage": "https://github.com/YolkPie/yolk-cli#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "colors": "^1.4.0",
+    "commander": "^4.0.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.0.1",
+    "ora": "^4.0.3"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.0.2",
+    "eslint": "^6.8.0",
+    "husky": "^3.1.0",
+    "validate-commit-msg": "^2.14.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
