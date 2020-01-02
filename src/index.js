@@ -17,7 +17,7 @@ if (existsSync(resolve(__dirname, `command/${todo}.js`))) {
   require(`./command/${todo}.js`);
 } else {
   console.log(
-    `请输入你要使用的模板...`.red,
+    `错误的脚手架指令...`.red,
   );
   process.exit(-1);
 }

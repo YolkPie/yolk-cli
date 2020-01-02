@@ -13,12 +13,12 @@ class Download {
     this.commander = commander;
     this.inquirer = inquirer;
     this.getProList = ora('获取项目列表...');
-    this.downLoad = ora('正在加速为您下载代码...');
+    this.downLoad = ora('正在加速为您下载项目模板...');
   }
 
   run() {
     this.commander
-      .command('download')
+      .command('init')
       .description('从远程下载代码到本地...')
       .action(() => { this.download(); });
 
@@ -80,10 +80,10 @@ class Download {
     try {
       downLoadLoad = this.downLoad.start();
       await this.git.downloadProject({ projectUrl: `https://github.com/${orgName}/${repo}.git`, repoPath });
-      downLoadLoad.succeed('下载代码成功');
+      downLoadLoad.succeed('下载项目模板成功');
     } catch (error) {
       console.log(error);
-      downLoadLoad.fail('下载代码失败...');
+      downLoadLoad.fail('下载项目模板失败...');
     }
   }
 }

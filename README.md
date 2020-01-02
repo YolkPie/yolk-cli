@@ -5,7 +5,7 @@ $ npm install -g @yolkpie/yolk-cli      #安装脚手架
 $ npm uninstall -g @yolkpie/yolk-cli    #卸载脚手架
 $ npm update -g @yolkpie/yolk-cli       #更新脚手架
 
-$ yolk download                         #安装项目模板
+$ yolk init                             #安装项目模板
 ```
 
 ### 贡献
