@@ -1,6 +1,6 @@
 {
   "name": "@yolkpie/yolk-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "前端项目脚手架",
   "main": "index.js",
   "scripts": {
