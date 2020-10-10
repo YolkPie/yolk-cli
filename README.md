@@ -1,6 +1,13 @@
 # Yolk CLI
 > 前端项目脚手架
 
+### 开发指南
+- [【手把手带你撸一个脚手架】第一步, 创建第一个命令](https://juejin.im/post/6844903713128218631)
+- [【手把手带你撸一个脚手架】第二步, 搭建开发环境](https://juejin.im/post/6844903713870610446)
+- [【手把手带你撸一个脚手架】第三步, 获取 github 项目信息](https://juejin.im/post/6844903713941749773)
+- [【手把手带你撸一个脚手架】第四步, 通过撸码获取项目信息](https://juejin.im/post/6844903714629615624)
+- [【手把手带你撸一个脚手架】第五步, 撸完收工](https://juejin.im/post/6844903715409772557)
+
 ### 介绍
 `Yolk CLI` 是一个前端项目快速开发的完整系统，提供：
 - [vue-spa-template](https://github.com/YolkPie/vue-spa-template)：Vue 单页应用项目模板

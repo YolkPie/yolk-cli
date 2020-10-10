@@ -15,9 +15,6 @@
     "脚手架",
     "项目搭建"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "author": "yujihu",
   "license": "MIT",
   "bugs": {
